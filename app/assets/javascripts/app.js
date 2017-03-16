@@ -1,1 +1,1 @@
-angular.module('canonball', []);
+angular.module('canonball', ['ui.router', 'templates']);

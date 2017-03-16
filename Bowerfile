@@ -2,3 +2,4 @@
 # Check out https://github.com/42dev/bower-rails#ruby-dsl-configuration for more options
 
 asset 'angular', '~> 1.6.3'
+asset 'angular-ui-router', '~> 0.4.2'
