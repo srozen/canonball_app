@@ -6,7 +6,8 @@ angular.module('canonball').config(['$stateProvider', '$urlRouterProvider', '$lo
         })
         .state('youtube', {
             url: '/youtube',
-            templateUrl: 'youtube.html'
+            templateUrl: 'youtube.html',
+            controller: 'YoutubeController'
         })
         .state('twitch', {
             url: '/twitch',

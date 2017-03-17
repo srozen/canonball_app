@@ -1,0 +1,5 @@
+angular.module('canonball').config(['YoutubeProvider', function(YoutubeProvider){
+    YoutubeProvider.setApiKey('<%= Rails.application.config.public_youtube_api_key %>');
+    YoutubeProvider.setUserId('<%= Rails.application.config.dwight_youtube_user_id %>');
+    YoutubeProvider.setChannelId('<%= Rails.application.config.dwight_youtube_channel_id %>');
+}]);

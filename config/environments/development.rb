@@ -1,4 +1,9 @@
 Rails.application.configure do
+
+  # Dwight Youtube
+  config.public_youtube_api_key = 'AIzaSyC2vOZ1idpNfz6HgusUOjZxq4UWgSAQQtc'
+  config.dwight_youtube_user_id = '9pt5_cCFAWJvCNVoZz48qw'
+  config.dwight_youtube_channel_id = 'UC9pt5_cCFAWJvCNVoZz48qw'
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
