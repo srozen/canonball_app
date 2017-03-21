@@ -23,3 +23,17 @@ Things you may want to cover:
 
 * ...
 # canonball_app
+
+## TODO 
+
+* [ ] Lateral twitter feed 
+* [ ] Top menu : 
+    * Twitch 
+    * Youtube 
+    * Teamspeak 
+    * A propos / Partenaires
+    * Contact
+* [ ] Color codes 
+    * Grey #4C4A49
+    * Orange #C15515
+    * Red #7C0808
