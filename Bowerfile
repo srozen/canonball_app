@@ -3,3 +3,6 @@
 
 asset 'angular', '~> 1.6.3'
 asset 'angular-ui-router', '~> 0.4.2'
+asset 'ngtweet', '~> 0.6.1'
+asset 'font-awesome'
+asset 'materialize'

@@ -26,7 +26,7 @@ Things you may want to cover:
 
 ## TODO 
 
-* [ ] Lateral twitter feed 
+* [x] Lateral twitter feed 
 * [ ] Top menu : 
     * Twitch 
     * Youtube 
@@ -34,6 +34,6 @@ Things you may want to cover:
     * A propos / Partenaires
     * Contact
 * [ ] Color codes 
-    * Grey #4C4A49
-    * Orange #C15515
-    * Red #7C0808
+    * Grey #4C4A49 grey darken-3
+    * Orange #C15515 orange darken-4
+    * Red #7C0808 red darken-4

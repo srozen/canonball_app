@@ -10,6 +10,12 @@
 
   <body ng-app="canonball">
     <div ng-include="'_navigation.html'"></div>
-    <ui-view></ui-view>
+    <div><ui-view></ui-view></div>
+    <div>
+      <!-- Configure with https://dev.twitter.com/web/embedded-timelines/parameters-->
+      <twitter-timeline twitter-timeline-id="'844856706433638400'"
+                        twitter-timeline-options='{"lang": "fr", "height": "2000"}'>
+      </twitter-timeline>
+    </div>
   </body>
 </html>
