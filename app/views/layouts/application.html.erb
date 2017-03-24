@@ -10,12 +10,23 @@
 
   <body ng-app="canonball">
     <div ng-include="'_navigation.html'"></div>
-    <div><ui-view></ui-view></div>
-    <div>
-      <!-- Configure with https://dev.twitter.com/web/embedded-timelines/parameters-->
-      <twitter-timeline twitter-timeline-id="'844856706433638400'"
-                        twitter-timeline-options='{"lang": "fr", "height": "2000"}'>
-      </twitter-timeline>
+    <div id="flex-container">
+
+      <div class="flex-twitter">
+        <!-- Configure with https://dev.twitter.com/web/embedded-timelines/parameters-->
+        <twitter-timeline twitter-timeline-id="'844856706433638400'"
+                          twitter-timeline-options='{"lang": "fr", "height": "1000", "width": "300"}'>
+        </twitter-timeline>
+      </div>
+
+      <div class="flex-ui">
+        <ui-view></ui-view>
+      </div>
+
+      <div class="flex-twitcher">
+        <iframe src="http://www.twitch.tv/dwight44954/chat?popout" scrolling="no" height="490px" frameborder="0"></iframe>
+      </div>
+
     </div>
   </body>
 </html>
