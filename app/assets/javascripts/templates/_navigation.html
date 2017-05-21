@@ -1,4 +1,5 @@
-<nav class="nav-extended">
+<!--
+<nav class="side-nav fixed">
     <div class="nav-wrapper grey darken-3">
         <a href="/" class="brand-logo center">Logo</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
@@ -12,7 +13,7 @@
             <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
         </ul>
 
-        <!--Mobile Collapsible Menu-->
+        &lt;!&ndash;Mobile Collapsible Menu&ndash;&gt;
         <ul class="side-nav grey darken-3" id="mobile-demo">
             <li><a class="white-text" href="/youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i> Youtube</a></li>
             <li><a class="white-text" href="/"><i class="fa fa-twitch" aria-hidden="true"></i> Twitch</a></li>
@@ -22,4 +23,32 @@
         </ul>
     </div>
 </nav>
+-->
 
+
+<nav class="top-nav">
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="#" class="page-title"> Edwin Boulito</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only">
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+    </a>
+</div>
+
+<ul id="nav-mobile" class="side-nav fixed">
+    <li class="logo">
+        <a id="logo-container" href="http://materializecss.com/" class="brand-logo">
+            <object id="front-page-logo" type="image/svg+xml" data="res/materialize.svg">Your browser does not support SVG</object>
+        </a>
+    </li>
+    <li class="bold"><a href="about.html" class="waves-effect waves-teal">About</a></li>
+    <li class="bold"><a href="getting-started.html" class="waves-effect waves-teal">Getting Started</a></li>
+
+    <li class="bold"><a href="http://materializecss.com/mobile.html" class="waves-effect waves-teal">Mobile</a></li>
+    <li class="bold"><a href="showcase.html" class="waves-effect waves-teal">Showcase</a></li>
+</ul>

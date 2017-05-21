@@ -1,25 +1,3 @@
 body{
     background-color: #292F33;
 }
-
-#flex-container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-
-.flex-twitter {
-    height: auto;
-    flex-grow: 0;
-}
-
-.flex-ui {
-    width: auto;
-    height: auto;
-    flex-grow: 2;
-}
-
-.flex_twitcher {
-    flex-grow: 1;
-}
