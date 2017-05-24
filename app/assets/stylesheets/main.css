@@ -14,6 +14,8 @@ header, main, footer {
     }
 }
 
+
+/* Youtube.js */
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -26,4 +28,16 @@ header, main, footer {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+
+/* Logo in Nav */
+
+.brand-logo{
+    padding-bottom: 50px;
+}
+.dwight-logo{
+    width:100%;
+    height:100%;
+    object-fit: contain;
 }
