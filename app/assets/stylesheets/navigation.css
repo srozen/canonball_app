@@ -1,0 +1,35 @@
+header, main, footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+nav{
+    background-color: #C15515;
+}
+
+.side-nav{
+    background-color: #292F33;
+}
+
+.navigation-menu{
+    padding-top: 7em;
+    padding-bottom: 3em;
+}
+.dwight-logo{
+    height:100px;
+    margin:0;
+}
+.brand-logo{
+    padding-top: 20px;
+    width:100%;
+    text-align: center;
+}
+
+.menu-icon-youtube{
+    color: #E62117;
+}

@@ -1,26 +1,10 @@
 body{
-    background-color: #292F33;
+    background-color: #4C4A49;
 }
 
 /* Navigation Menu */
 
-header, main, footer {
-    padding-left: 300px;
-}
 
-@media only screen and (max-width : 992px) {
-    header, main, footer {
-        padding-left: 0;
-    }
-}
-
-nav{
-    background-color: #C15515;
-}
-
-.side-nav{
-    background-color: #4C4A49;
-}
 
 
 /* Youtube.js */
@@ -41,11 +25,3 @@ nav{
 
 /* Logo in Nav */
 
-.brand-logo{
-    padding-bottom: 50px;
-}
-.dwight-logo{
-    width:100%;
-    height:100%;
-    object-fit: contain;
-}
