@@ -14,6 +14,14 @@ header, main, footer {
     }
 }
 
+nav{
+    background-color: #C15515;
+}
+
+.side-nav{
+    background-color: #4C4A49;
+}
+
 
 /* Youtube.js */
 .videoWrapper {
