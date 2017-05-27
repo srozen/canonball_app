@@ -1,31 +1,52 @@
-<!--
-<nav class="side-nav fixed">
-    <div class="nav-wrapper grey darken-3">
-        <a href="/" class="brand-logo center">Logo</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
-        <ul id="nav-mobile-left" class="left hide-on-med-and-down">
-            <li><a href="/youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i> Youtube</a></li>
-            <li><a href="/"><i class="fa fa-twitch" aria-hidden="true"></i> Twitch</a></li>
-        </ul>
-        <ul id="nav-mobile-right" class="right hide-on-med-and-down">
-            <li><a href="#"><i class="fa fa-microphone" aria-hidden="true"></i> TeamSpeak</a></li>
-            <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i> Partenaires</a></li>
-            <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
-        </ul>
+<header>
 
-        &lt;!&ndash;Mobile Collapsible Menu&ndash;&gt;
-        <ul class="side-nav grey darken-3" id="mobile-demo">
-            <li><a class="white-text" href="/youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i> Youtube</a></li>
-            <li><a class="white-text" href="/"><i class="fa fa-twitch" aria-hidden="true"></i> Twitch</a></li>
-            <li><a class="white-text" href="#"><i class="fa fa-microphone" aria-hidden="true"></i> TeamSpeak</a></li>
-            <li><a class="white-text" href="#"><i class="fa fa-users" aria-hidden="true"></i> Partenaires</a></li>
-            <li><a class="white-text" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
-        </ul>
-    </div>
-</nav>
--->
+    <!-- Top bar -->
+
+    <nav class="top-nav">
+        <!-- Hamburger -->
+        <div class="container">
+            <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only">
+                <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="container">
+            <div class="nav-wrapper">
+
+                <a class="brand-logo center">Dwight</a>
+            </div>
+        </div>
+    </nav>
 
 
+
+    <!-- Lateral Menu -->
+
+    <ul id="nav-mobile" class="side-nav fixed">
+        <!-- Logo -->
+
+        <div class="brand-logo">
+            <img  class="dwight-logo" src="images/dwight.png" alt="">
+        </div>
+
+        <!-- Links -->
+
+        <li class="bold"><a class="white-text waves-effect waves-red" href="/youtube"><i class="fa fa-youtube-play fa-2x" style="color:#E62117" aria-hidden="true"></i> Youtube</a></li>
+        <li class="bold"><a class="white-text waves-effect waves-purple" href="/"><i class="fa fa-twitch fa-2x" style="color:#6441A5" aria-hidden="true"></i> Twitch</a></li>
+        <li class="bold"><a class="white-text waves-effect" href="ts149.nitrado.net:10450"><i class="fa fa-microphone fa-2x" style="color:#4C4A49" aria-hidden="true"></i> TeamSpeak</a></li>
+        <li class="bold"><a class="white-text waves-effect" href="#"><i class="fa fa-users fa-2x" style="color:#4C4A49" aria-hidden="true"></i> Partenaires</a></li>
+        <li class="bold"><a class="white-text waves-effect" href="#"><i class="fa fa-envelope-o fa-2x" style="color:#4C4A49" aria-hidden="true"></i> Contact</a></li>
+
+        <twitter-timeline twitter-timeline-id="'844856706433638400'"
+                          twitter-timeline-options='{"lang": "fr", "height": "500", "width": "100%"}'
+                          class="twitter-timeline"  >
+        </twitter-timeline>
+    </ul>
+</header>
+
+
+
+<!-- Previous version
 <nav class="navigation-bar">
     <ul id="slide-out" class="side-nav fixed">
         <div class="brand-logo">
@@ -46,3 +67,4 @@
     </ul>
     <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
 </nav>
+-->
