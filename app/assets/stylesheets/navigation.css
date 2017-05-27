@@ -1,12 +1,40 @@
 header, main, footer {
-    padding-left: 300px;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
 @media only screen and (max-width : 992px) {
     header, main, footer {
         padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
     }
+    .twitch-subchat{
+        display: none;
+    }
+
+
 }
+
+@media only screen and (min-width:993px) and (max-width : 1250px) {
+    header, main, footer {
+        padding-right: 0;
+    }
+    main{
+        padding-left: 200px;
+        margin-right: -100px;
+    }
+    .twitch-chat{
+        display: none;
+        width:0;
+    }
+
+    .twitch-subchat{
+        display: block;
+    }
+
+}
+
 
 nav{
     background-color: #C15515;
