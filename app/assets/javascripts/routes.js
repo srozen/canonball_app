@@ -8,7 +8,11 @@ angular.module('canonball').config(['$stateProvider', '$urlRouterProvider', '$lo
         .state('twitch', {
             url: '/',
             templateUrl: 'twitch.html'
+        })
+        .state('contact', {
+            url: '/contact',
+            templateUrl: 'contact.html'
         });
     $locationProvider.html5Mode({enabled: true, requireBase: false});
     $urlRouterProvider.otherwise('home');
-}])
+}]);

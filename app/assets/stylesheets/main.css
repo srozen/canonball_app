@@ -6,10 +6,6 @@ body{
     display: none;
 }
 
-
-
-/* Youtube.js */
-
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -27,7 +23,4 @@ body{
 .twitch-subchat iframe{
     height: 300px;
 }
-
-
-/* Logo in Nav */
 

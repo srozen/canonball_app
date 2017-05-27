@@ -1,0 +1,21 @@
+.contact-form{
+    color: #FFFFFF;
+}
+
+.input-field textarea:focus + label {
+    color: #C15515 !important;
+}
+
+.row .input-field textarea:focus {
+    border-bottom: 1px solid #C15515 !important;
+    box-shadow: 0 1px 0 0 #C15515 !important
+}
+
+.input-field input:focus + label {
+    color: #C15515 !important;
+}
+
+.row .input-field input:focus {
+    border-bottom: 1px solid #C15515 !important;
+    box-shadow: 0 1px 0 0 #C15515 !important
+}
