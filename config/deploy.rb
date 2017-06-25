@@ -87,7 +87,7 @@ namespace :deploy do
     ENV['REASON'] ||= "Deployment of new version"
     ENV['UNTIL'] ||= 10.minutes.from_now.to_datetime.to_formatted_s(:rfc822)
   end
-  
+
 
 
 end
