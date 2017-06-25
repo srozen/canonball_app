@@ -6,4 +6,4 @@ server '139.59.137.53', user: 'deploy', roles: %w{web app db}
 #application information
 set :branch,    "master"
 set :deploy_to, "/home/deploy/canonball_app"
-set :rails_env, "pcanonball_app"
+set :rails_env, "canonball_app"
