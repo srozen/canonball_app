@@ -33,15 +33,8 @@ group :development do
   gem 'better_errors', '~> 2.1', '>= 2.1.1'
   gem 'binding_of_caller', '~> 0.7.2'
 
-  gem 'capistrano', '~> 3.4', require: false
-  gem 'capistrano-rails', require: false
-  gem 'capistrano-bundler', require: false
-  gem 'capistrano-rbenv', require: false
-  gem 'capistrano-db-tasks', require: false
-  gem 'capistrano3-puma', require: false
-  gem 'capistrano-maintenance', '~> 1.0', require: false
-  gem 'airbrussh', require: false
-  gem 'highline', require: false
-  gem 'capistrano-faster-assets', require: false
-  gem 'thin', '~> 1.6', '>= 1.6.4'
+  gem 'capistrano', '~> 3.7', '>= 3.7.1'
+  gem 'capistrano-rails', '~> 1.2'
+  gem 'capistrano-passenger', '~> 0.2.0'
+  gem 'capistrano-rbenv', '~> 2.1'
 end
