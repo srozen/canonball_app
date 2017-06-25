@@ -17,6 +17,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bower-rails', '~> 0.11.0'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'angular-rails-templates', '~> 1.0', '>= 1.0.2'
+gem 'non-stupid-digest-assets'
 
 
 group :development, :test do

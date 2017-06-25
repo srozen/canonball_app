@@ -136,6 +136,8 @@ GEM
     nio4r (2.0.0)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
+    non-stupid-digest-assets (1.0.9)
+      sprockets (>= 2.0)
     pg (0.20.0)
     phantomjs (2.1.1.0)
     poltergeist (1.13.0)
@@ -242,6 +244,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  non-stupid-digest-assets
   pg
   phantomjs (~> 2.1, >= 2.1.1.0)
   poltergeist (~> 1.13)
