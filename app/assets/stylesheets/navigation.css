@@ -24,6 +24,9 @@ header, main, footer {
         padding-left: 200px;
         margin-right: -100px;
     }
+    .top-nav{
+        padding-left: 128px
+    }
     .twitch-chat{
         display: none;
         width:0;
