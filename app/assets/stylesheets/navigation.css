@@ -1,7 +1,16 @@
 header, main, footer {
     padding-left: 180px;
     padding-right: 180px;
+
+
 }
+
+.dwight-banner{
+    width:auto;
+    height:44px;
+    margin-top: 10px;
+}
+
 
 @media only screen and (max-width : 992px) {
     header, main, footer {
@@ -13,7 +22,11 @@ header, main, footer {
         display: none;
     }
 
-
+    .dwight-banner{
+        width:auto;
+        height:34px;
+        margin-top: 15px;
+    }
 }
 
 @media only screen and (min-width:993px) and (max-width : 1250px) {
@@ -37,7 +50,6 @@ header, main, footer {
     }
 
 }
-
 
 nav{
     background-color: #C15515;
@@ -69,4 +81,3 @@ nav{
 .community-logo{
     height: 25px;
 }
-
